@@ -35,7 +35,7 @@ const ApiPopup = () => {
 
   return isModalOpen ? (
     <PopupModal
-      title='Setup your API key'
+      title='Provide Yelp Email Address'
       handleConfirm={handleConfirm}
       setIsModalOpen={setIsModalOpen}
       cancelButton={false}
